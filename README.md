@@ -39,9 +39,9 @@ You can customize server settings through objects `Config` in `index.js`.
 
 ```javascript
 const Config = {
-    port: 8080, // Server port
-    host: IPReadyUsed(), // Host address, automatically filled with LAN IP
-    https: true, // true for HTTPS, false for HTTP
+    port: 8080,           // Server port
+    host: IPReadyUsed(),  // Host address, automatically filled with LAN IP
+    https: true,          // true for HTTPS, false for HTTP
     mime: require('./extension.json'),
     certificate: {
         key: fs.readFileSync('./ssl/key.pem'),
