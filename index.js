@@ -1,5 +1,5 @@
 /**
- * @copyright 2022 and 2025, author (darmawn)
+ * @copyright 2022 and 2025.
  * @version 0.10.5
  * @public
  */
