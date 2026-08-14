@@ -3,11 +3,11 @@
 A lightweight, zero-dependency Node.js static file server built for fast HTML rendering and local web development. Supports HTTP/HTTPS, auto-detected LAN hosting, custom MIME mapping, and automatic browser launch on startup.
 Key Features
 
- * HTTP & HTTPS Support: Toggle between HTTP and HTTPS using local SSL/TLS certificate keypairs.
- * Auto Browser Launch: Automatically opens your server address in the default browser upon startup (macOS, Windows, and Linux).
- * Static File Serving: Delivers web assets directly out of the /src directory.
- * Custom MIME Mapping: Configurable file extension handling via extension.json.
- * Default Index Resolution: Serves index.html automatically for root path (/) requests.
+- HTTP & HTTPS Support: Toggle between HTTP and HTTPS using local SSL/TLS certificate keypairs.
+- Auto Browser Launch: Automatically opens your server address in the default browser upon startup (macOS, Windows, and Linux).
+- Static File Serving: Delivers web assets directly out of the /src directory.
+- Custom MIME Mapping: Configurable file extension handling via extension.json.
+- Default Index Resolution: Serves index.html automatically for root path (/) requests.
 Project Structure
   
   ```
