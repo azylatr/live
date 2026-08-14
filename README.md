@@ -1,4 +1,4 @@
-# Simple Node.js Static File Server
+# Supports small real-time servers for lightweight HTML rendering tasks.
 
 A simple static file server built with Node.js, supporting HTTP/HTTPS and serving files from the `src/` directory. It also tries to open a *browser* automatically when launched.
 
