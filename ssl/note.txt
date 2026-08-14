@@ -1,0 +1,1 @@
+Open and create your own SSL certificate through the service provider you use.
