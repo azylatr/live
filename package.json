@@ -1,0 +1,14 @@
+{
+  "name": "_ils",
+  "version": "1.0.0",
+  "description": "Live servers are fast and without dependencies, ready to go.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "ince",
+  "license": "ISC",
+  "type": "commonjs"
+}
