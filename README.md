@@ -9,7 +9,7 @@ Key Features
  * Custom MIME Mapping: Configurable file extension handling via extension.json.
  * Default Index Resolution: Serves index.html automatically for root path (/) requests.
 Project Structure
-```sh
+  ```
 .
 ├── ssl/
 │   ├── key.pem          # SSL Private Key (required if https: true)
@@ -20,7 +20,7 @@ Project Structure
 ├── index.js             # Main server logic and configuration
 ├── package.json         # Node.js project manifest & scripts
 └── README.md            # Project documentation
-```
+  ```
 
 # Quick Start
 
@@ -28,7 +28,7 @@ Project Structure
 Make sure Node.js (v14+ recommended) is installed on your machine.
 2. Configure MIME Extensions (extension.json)
 Ensure extension.json exists in your root directory with standard file extension mappings:
-```sh
+  ```
 {
   ".html": "text/html",
   ".css": "text/css",
@@ -38,12 +38,12 @@ Ensure extension.json exists in your root directory with standard file extension
   ".jpg": "image/jpeg",
   ".svg": "image/svg+xml"
 }
-```
+  ```
 
 3. Server Options (index.js)
 Customize your server behavior using the Config object inside index.js:
-`const fs = require('fs');`
-```sh
+  ```
+const fs = require('fs');
 const Config = {
     port: 8080,            // Server port
     host: IPReadyUsed(),   // Binds automatically to your LAN IP address
@@ -55,12 +55,12 @@ const Config = {
     },
     index: ['index.html']  // Default entry files
 };
-```
+  ```
 
 4. Run the Server
 Execute the development script:
-```sh
+  ```
 npm run dev
-```
+  ```
 
 Once initialized, the terminal will log your active address and launch your default web browser automatically.
