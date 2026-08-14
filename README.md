@@ -23,7 +23,7 @@ Project Structure
   └── README.md            # Project documentation
   ```
 
-# Quick Start
+### Quick Start
 
 - Prerequisites
 Make sure Node.js (v14+ recommended) is installed on your machine.
