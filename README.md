@@ -13,13 +13,12 @@ Project Structure
   ```
   .
   ├── ssl/
-  │   ├── key.pem         # SSL Private Key (required if https: true)
-  │   └── cert.pem        # SSL Certificate Key (required if https: true)
+  │   ├── key.pem          # SSL Private Key (required if https: true)
+  │   └── cert.pem         # SSL Certificate Key (required if https: true)
   ├── src/
-  │   └── index.html      # Web root directory for your public files
+  │   └── index.html       # Web root directory for your public files
   ├── extension.json       # Custom MIME type definitions
   ├── index.js             # Main server logic and configuration
-  ├── package.json         # Node.js project manifest & scripts
   └── README.md            # Project documentation
   ```
 
@@ -64,7 +63,7 @@ Customize your server behavior using the Config object inside index.js:
 Execute the development script:
   
   ```bash
-  npm run dev
+  node index.js
   ```
 
 Once initialized, the terminal will log your active address and launch your default web browser automatically.
