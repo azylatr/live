@@ -25,9 +25,9 @@ Project Structure
 
 # Quick Start
 
-1. Prerequisites
+- Prerequisites
 Make sure Node.js (v14+ recommended) is installed on your machine.
-2. Configure MIME Extensions (extension.json)
+- Configure MIME Extensions (extension.json)
 Ensure extension.json exists in your root directory with standard file extension mappings:
   
   ```json
@@ -42,7 +42,7 @@ Ensure extension.json exists in your root directory with standard file extension
   }
   ```
 
-3. Server Options (index.js)
+- Server Options (index.js)
 Customize your server behavior using the Config object inside index.js:
 
   ```javascript
@@ -60,7 +60,7 @@ Customize your server behavior using the Config object inside index.js:
   };
   ```
 
-4. Run the Server
+- Run the Server
 Execute the development script:
   
   ```bash
