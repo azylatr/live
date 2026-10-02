@@ -65,5 +65,5 @@ Execute the development script:
   ```bash
   node index.js
   ```
-
-Once initialized, the terminal will log your active address and launch your default web browser automatically.
+  
+Once initialized, the terminal will log your active address and launch your default web browser automatically. 
